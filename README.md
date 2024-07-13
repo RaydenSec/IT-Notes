@@ -1,2 +1,2 @@
 # IT-Notes
-Random IT notes for future reference
+Random IT notes for myself
