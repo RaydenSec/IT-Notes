@@ -1,7 +1,12 @@
 # Windows IT Notes
 
+- [system Information](##system-information)
+- [Registry Editor](##registry-editor)
+- [Resource Monitor](##resource-monitor)
+- [system Configuration](##system-configuration)
 - [Task scheduler](##task-scheduler)
-- 
+- [Computer Management](##computer-management)
+- [Management Console](##management-console)
 
 ## Task scheduler
 Can be run w/ `taskschd.mc`
