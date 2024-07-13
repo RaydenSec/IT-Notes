@@ -4,6 +4,8 @@
 - [Registry Editor](##registry-editor)
 - [Resource Monitor](##resource-monitor)
 - [system Configuration](##system-configuration)
+- [Disk Cleanup](##disk-cleanup)
+- [Disk Defragmentation](##disk-defragmentation)
 - [Task scheduler](##task-scheduler)
 - [Computer Management](##computer-management)
 - [Management Console](##management-console)
