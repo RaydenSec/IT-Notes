@@ -68,6 +68,12 @@ Can be run w/ `mmc`
 - Lot of options for snap-ins, computer management is an instance of management console
 
 ## safe Mode
-- Access via settings>update & security>recovery
-- Hold shift while restarting, then select Troubleshoot>Advanced options>startup settings>Restart (May require Bitlocker key), then select startup setting desired
-- Can exit safe mode by restarting PC/clear safe boot checkbox from msconfig
+How to access:
+    - Access via settings>update & security>recovery
+    - Hold shift while restarting, then select Troubleshoot>Advanced options>startup settings>Restart (May require Bitlocker key), then select startup setting desired
+    - Can exit safe mode by restarting PC/clear safe boot checkbox from msconfig
+- Boot windows in simple state (only basic drivers)
+- Most bootup software is not in memory
+    - so if no problems, problem might not be windows but loaded w/ windows itself
+- If in standard windows, deleting windows file may not work cause windows is using it, safe mode can delete/rename file that wasn’t possible in normal Windows most of the time (also good if can't get into Windows normal environment due to problems/malware)
+
