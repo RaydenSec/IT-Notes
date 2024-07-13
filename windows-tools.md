@@ -69,9 +69,10 @@ Can be run w/ `mmc`
 
 ## safe Mode
 How to access:
-    - Access via settings>update & security>recovery
-    - Hold shift while restarting, then select Troubleshoot>Advanced options>startup settings>Restart (May require Bitlocker key), then select startup setting desired
-    - Can exit safe mode by restarting PC/clear safe boot checkbox from msconfig
+- Access via settings>update & security>recovery
+- Hold shift while restarting, then select Troubleshoot>Advanced options>startup settings>Restart (May require Bitlocker key), then select startup setting desired
+- Can exit safe mode by restarting PC/clear safe boot checkbox from msconfig
+Purpose:
 - Boot windows in simple state (only basic drivers)
 - Most bootup software is not in memory
     - so if no problems, problem might not be windows but loaded w/ windows itself
