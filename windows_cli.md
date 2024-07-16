@@ -114,7 +114,7 @@ Tags:
 - `shutdown /a` -> Abort Shutdown/Restart timer
 
 ## Unix Parallels
-- `mkdir`, `rmdir`, `cd`
+- `mkdir`, `rmdir`, `cd`, `whoami`
 
 ## Misc Notes
 - Opening CLI w/out running as admin, opens you in user home directory
