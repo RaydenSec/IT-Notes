@@ -57,6 +57,7 @@ If you add a new user to the Permissions, default permissions -> `Read` and `Exe
 `Modify` -> Gives all the following permissions, except `Full Control` (can't edit permissions for others)
 Can also give permissions view the contents of a folder
 - When changing permissions for a folder, files inside will inherit permissions, but if you move a file to the folder, that file will not change to the folder's permissions
+- Remember: Deny takes precedence over Allow (Folder has allow, files inside has deny, so the file denies access)
 
 ## Hidden Files
 Can make files/folders hidden/read-only
