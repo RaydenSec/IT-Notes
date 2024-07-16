@@ -1,5 +1,6 @@
 # Useful Windows CLI Commands 
 
+# System
 - [Windows Path](##windows-path)
 - [Windows Version](##windows-version)
 - [System Info](##system-info)
@@ -9,6 +10,10 @@
 - [format](##format)
 - [Disk Partition](##disk-partition)
 - [Copy Single File](##copy-single-file)
+- [Check File System](##check-file-system)
+- [Scan All Protected System Files](##scan-all-protected-system-files)
+
+# Network
 - [ping](##ping)
 - [tracert](##tracert)
 - [pathping](##pathping)
@@ -19,6 +24,8 @@
 - [shutdown](##shutdown)
 - [Unix Parallels](##unix-parallels)
 - [Misc Notes](##misc-notes)
+
+# System
 
 ## Windows Path
 - Each partition is assigned a drive letter (eg. `C:`)
@@ -63,6 +70,14 @@
 - Of course, will requrie elevation
 
 ## Copy Single File
+
+## Check File System
+`chkdsk`
+
+## Scan All Protected System Files
+`sfc`
+
+# Network
 
 ## ping
 
