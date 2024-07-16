@@ -3,6 +3,7 @@
 # File System Explained
 - [Windows Filesystem Lamen's Terms](##windows-filesystem-lamen's-terms)
 - [Good Practice](##good-practice)
+- [Public Users Folder](##public-users-folder)
 - [32 and 64bit identification](##32-64bit)
 - [File system Types](##file-system-types)
 
@@ -26,6 +27,9 @@ File Explorer Home for each user is just Windows User's directory (this is the d
 You don't have permissions to access other user's folders unless you're admin
 - Go to `options` of File Explorer and set `Open File Explorer To This PC` instead of `Home`
 - Ease of access to shares and drives when you open File Explorer (Home is just to see the current User folders)
+
+## Public Users Folder
+There is a `Public` folder in Users, so users can put files and folder in there that every user on system can access. 
 
 ## 32 and 64 bit identification
 Check if there's a Program File and Program File (x86). If there's an (x86) folder labelled like that, it is x64
