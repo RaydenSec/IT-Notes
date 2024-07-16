@@ -17,6 +17,7 @@
 - [MacOs Equivalent stuff](##macos-equivalent_stuff)
 
 ## Windows Filesystem Lamen's Terms
+Every device has a filesyste -> phone, laptop, storage drives etc.
 A computer has a drive, or more drives can be installed. If drives had data before, it has been formatted. Each drive can be partitioned, so that one drive can be virtually two drives. 
 When you install a version of Windows on a drive/partition, Windows will create a file system and store its files there. 
 Windows files and processes will constantly take up some storage and RAM. 
