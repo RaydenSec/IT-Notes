@@ -41,13 +41,13 @@ Global: Fat32, exFAT (common in Usbs)
 ## Hidden Files
 Can make files/folders hidden/read-only
 Default Windows folders include:
-- User Folder has a `Default` folder, which is a template folder for whenever you create a new user
-- AppData settings in User/Program Files is app settings just for the user (eg. chrome bookmarks) (for sysadmin, might want to delete Google (for google chrome) in AppData, to delete User configs and settings for Google Chrome, then when launched, will create a new one (only deletes configs for this user). you can them take it out of recycling bin and replace the new one to get the old one back (useful for portable google chrome configs) (but google account authetnication is stored here?)
+- `User Folder` has a `Default` folder, which is a template folder for whenever you create a new user
+- `AppData` Hidden Folder in User/Program Files is app settings just for the user (eg. chrome bookmarks) (for sysadmin, might want to delete Google (for google chrome) in `AppData`. This deletes User configs and settings for Google Chrome, then when launched, Google Chrome will create a new one (only deletes configs for this user). you can them take it out of recycling bin and replace the new one to get the old one back (useful for portable google chrome configs) 
 
 ## Windows Folder
-Windows OS folder located in Drive Letter/Windows
-All the core things that Windows need to run is stored in System32, so if deleted, you're dead 
-- can repair it with sfc
+Windows OS folder located in `Drive Letter/Windows`
+All the core things that Windows need to run is stored in `System32`, so if deleted, you're dead 
+- can repair it with `sfc`
 
 # Mac
 
