@@ -1,2 +1,2 @@
-# IT-Notes
+# IT Knowledge Base
 Random IT notes for myself
