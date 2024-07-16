@@ -6,6 +6,7 @@
 - [System Info](##system-info)
 - [hostname](##hostname)
 - [dir](##dir)
+- [tree](##tree)
 - [del](##del)
 - [format](##format)
 - [Disk Partition](##disk-partition)
@@ -51,6 +52,10 @@
 `dir`
 - lists contents of current directory (displays if directory or file and shows file extension)
 - Works the same as Unix `ls` -> eg. can `dir Downloads`
+
+## tree
+`tree`
+- Display filesystem as a tree hierarchy
 
 ## del
 `del`
