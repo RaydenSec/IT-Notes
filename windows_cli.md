@@ -55,7 +55,7 @@
 
 ## tree
 `tree`
-- Display filesystem as a tree hierarchy
+- Display current directory and down as a tree hierarchy
 
 ## del
 `del`
