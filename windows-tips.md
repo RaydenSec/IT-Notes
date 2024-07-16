@@ -2,6 +2,7 @@
 
 # File System Explained
 - [Windows Filesystem Lamen's Terms](##windows-filesystem-lamen's-terms)
+- [Windows Fileystem History](##windows-filesystem-history)
 - [Good Practice](##good-practice)
 - [Public Users Folder](##public-users-folder)
 - [32 and 64bit identification](##32-64bit)
@@ -22,6 +23,11 @@ A computer has a drive, or more drives can be installed. If drives had data befo
 When you install a version of Windows on a drive/partition, Windows will create a file system and store its files there. 
 Windows files and processes will constantly take up some storage and RAM. 
 Your application, documents, etc., can be stored on a different drive/partition, it is a good habit.
+
+## Windows Fileystem History
+FAT (gone) -> FAT32 (single file max 4GB) -> NTFS (Single file large size, recoverable (logs of file changes), has permissions, windows only) 
+exFAT came to fix FAT32 problems (Can be used for every OS, and good for USB as very large size for one file)
+You can format your drive (in CLI/file explorer) etc. into FAT32, exFAT, NTFS, for Windows
 
 ## Good Practice
 File Explorer Home for each user is just Windows User's directory (this is the default when you open File Explorer)
