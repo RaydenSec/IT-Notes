@@ -9,6 +9,7 @@
 - [File system Types](##file-system-types)
 
 # Sysadmin Stuff
+- [Permissions](##permissions)
 - [Hidden Files](##hidden-files)
 - [Windows Directory](##windows-directory)
 - [Windows Folder](##windows-folder)
@@ -25,9 +26,9 @@ Windows files and processes will constantly take up some storage and RAM.
 Your application, documents, etc., can be stored on a different drive/partition, it is a good habit.
 
 ## Windows Fileystem History
-FAT (gone) -> FAT32 (single file max 4GB) -> NTFS (Single file large size, recoverable (logs of file changes), has permissions, windows only) 
-exFAT came to fix FAT32 problems (Can be used for every OS, and good for USB as very large size for one file)
-You can format your drive (in CLI/file explorer) etc. into FAT32, exFAT, NTFS, for Windows
+`FAT` (gone) -> `FAT32` (single file max 4GB) -> `NTFS` (Single file large size, recoverable (logs of file changes), has permissions, windows only) 
+`exFAT` came to fix `FAT32` problems (Can be used for every OS, and good for USB as very large size for one file)
+You can format your drive (in CLI/file explorer) etc. into `FAT32`, `exFAT`, `NTFS`, for `Windows`
 
 ## Good Practice
 File Explorer Home for each user is just Windows User's directory (this is the default when you open File Explorer)
@@ -42,12 +43,20 @@ There is a `Public` folder in Users, so users can put files and folder in there 
 Check if there's a Program File and Program File (x86). If there's an (x86) folder labelled like that, it is x64
 
 ## File system Types
-Windows: NTFs (new Windos File system allows permissions and groups compared t Fat32)
-Linux: ext3 and ext4
-Mac: APFs
-Global: Fat32, exFAT (common in Usbs)
+Windows: `NTFS` (new Windos File System allows permissions and groups compared to `Fat32`)
+Linux: `ext3` and `ext4`
+Mac: `APFS`
+Global: `Fat32`, `exFAT` (common in Usbs)
 
 # Sysadmin Stuff
+
+## Permissions
+Permissions of folder/file in `Properties->Security`
+`Full Control` -> Full permissions for everything below (and can give other people permissions to file)
+If you add a new user to the Permissions, default permissions -> `Read` and `Execute`
+`Modify` -> Gives all the following permissions, except `Full Control` (can't edit permissions for others)
+Can also give permissions view the contents of a folder
+- When changing permissions for a folder, files inside will inherit permissions, but if you move a file to the folder, that file will not change to the folder's permissions
 
 ## Hidden Files
 Can make files/folders hidden/read-only
