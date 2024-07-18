@@ -67,6 +67,7 @@ Default Windows folders include:
 - `AppData` Hidden Folder in User/Program Files is app settings just for the user (eg. chrome bookmarks) (for sysadmin, might want to delete Google (for google chrome) in `AppData`. This deletes User configs and settings for Google Chrome, then when launched, Google Chrome will create a new one (only deletes configs for this user). you can them take it out of recycling bin and replace the new one to get the old one back (useful for portable google chrome configs)
 
 ## Different Application Data Store Locations
+Program != Application (Python vs MS Word)
 - `AppData` -> where user application/program data is stored
 - `Registry` -> Where application configuration is stored
 - `ProgramData` -> Application specific data is stored
