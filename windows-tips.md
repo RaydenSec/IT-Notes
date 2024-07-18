@@ -11,6 +11,7 @@
 # Sysadmin Stuff
 - [Permissions](##permissions)
 - [Hidden Files](##hidden-files)
+- [Different Application Data Store Locations](##different-application-data-store-locations)
 - [Windows Directory](##windows-directory)
 - [Windows Folder](##windows-folder)
 
@@ -63,7 +64,13 @@ Can also give permissions view the contents of a folder
 Can make files/folders hidden/read-only
 Default Windows folders include:
 - `User Folder` has a `Default` folder, which is a template folder for whenever you create a new user
-- `AppData` Hidden Folder in User/Program Files is app settings just for the user (eg. chrome bookmarks) (for sysadmin, might want to delete Google (for google chrome) in `AppData`. This deletes User configs and settings for Google Chrome, then when launched, Google Chrome will create a new one (only deletes configs for this user). you can them take it out of recycling bin and replace the new one to get the old one back (useful for portable google chrome configs) 
+- `AppData` Hidden Folder in User/Program Files is app settings just for the user (eg. chrome bookmarks) (for sysadmin, might want to delete Google (for google chrome) in `AppData`. This deletes User configs and settings for Google Chrome, then when launched, Google Chrome will create a new one (only deletes configs for this user). you can them take it out of recycling bin and replace the new one to get the old one back (useful for portable google chrome configs)
+
+## Different Application Data Store Locations
+- `AppData` -> where user application data is stored
+- `Registry` -> Where application configuration is stored
+- `ProgramData` -> Application specific data is stored
+- `Program Files` -> Where read-only application binaries and code is stored
 
 ## Windows Folder
 Windows OS folder located in `Drive Letter/Windows`
