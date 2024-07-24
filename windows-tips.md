@@ -34,7 +34,7 @@ You can format your drive (in CLI/file explorer) etc. into `FAT32`, `exFAT`, `NT
 ## Good Practice
 File Explorer Home for each user is just Windows User's directory (this is the default when you open File Explorer)
 You don't have permissions to access other user's folders unless you're admin
-- Go to `options` of File Explorer and set `Open File Explorer To This PC` instead of `Home`
+- Go to `options`/`view` of File Explorer and set `Open File Explorer To This PC` instead of `Home`
 - Ease of access to shares and drives when you open File Explorer (Home is just to see the current User folders)
 
 ## Public Users Folder
