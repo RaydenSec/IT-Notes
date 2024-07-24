@@ -14,4 +14,4 @@ Install AD DS on this server, there are many services you can install for this, 
 Create a new forest since first DC, specify domain 
 
 
-Turn Server to AD server -> NAT (so private network devices can talk to outside through DC) -> DHCP on DC, so devices connected can be auto assigned IP
+Turn Server to AD server -> NAT (can forward traffic from devices in this private network devices to internet) -> DHCP on DC, so devices connected can be auto assigned IP
