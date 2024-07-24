@@ -12,3 +12,6 @@ VM network connections, w/ 1 being connected to internet, ipv4 assigned by DHCP,
 
 Install AD DS on this server, there are many services you can install for this, then specify server from pool (only one in this case)
 Create a new forest since first DC, specify domain 
+
+
+Turn Server to AD server -> NAT (so private network devices can talk to outside through DC) -> DHCP on DC, so devices connected can be auto assigned IP
