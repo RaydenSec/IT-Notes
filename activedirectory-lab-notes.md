@@ -11,4 +11,4 @@ VM network connections, w/ 1 being connected to internet, ipv4 assigned by DHCP,
 - Windows Server automatically installs DNS server, so it can be its own DNS server (127.0.0.1)
 
 Install AD DS on this server, there are many services you can install for this, then specify server from pool (only one in this case)
-Create a new forest since first DC
+Create a new forest since first DC, specify domain 
