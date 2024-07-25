@@ -16,6 +16,7 @@ Create a new forest since first DC, specify domain
 
 Turn Server to AD server -> NAT (can forward traffic from devices in this private network devices to internet) -> DHCP on DC, so devices connected can be auto assigned IP
 
+Can manage users and computers through AD domain controller: computers allow users to log in through them, deleting it will prevent users from logging into AD using it. 
 
 If client manually configures their IP (requires admin perms if connected with AD account), DHCP leases will not show for that IP
 If Defautl Gateway for IP missing, add the default gateway in the AD server (should be itself since its redirecting traffic to internet) in DHCP. THen ipconfig /renew in client and see if there now is defautl gateway
