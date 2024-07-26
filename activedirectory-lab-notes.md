@@ -25,3 +25,6 @@ If client manually configures their IP (requires admin perms if connected with A
 If Defautl Gateway for IP missing, add the default gateway in the AD server (should be itself since its redirecting traffic to internet) in DHCP. THen ipconfig /renew in client and see if there now is defautl gateway
 
 Client WIndows Machines can directly connect to AD as default gateway because the network is set to internal network (For Virtualbox, it is an internal virtual netowrk avaialbe to any vm running on the host)
+
+Internal network adapter in VM for DC is to keep the VMs and DC isolated from external network 
+In coorporate environment, INternal network adapter would be for development and testing instead of production
