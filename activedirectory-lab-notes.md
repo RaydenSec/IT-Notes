@@ -18,6 +18,9 @@ Turn Server to AD server -> NAT (can forward traffic from devices in this privat
 
 Can manage users and computers through AD domain controller: computers allow users to log in through them, deleting it will prevent users from logging into AD using it. 
 
+
+Why add additional DCs to domain? For redundancy and load balancing
+
 If client manually configures their IP (requires admin perms if connected with AD account), DHCP leases will not show for that IP
 If Defautl Gateway for IP missing, add the default gateway in the AD server (should be itself since its redirecting traffic to internet) in DHCP. THen ipconfig /renew in client and see if there now is defautl gateway
 
