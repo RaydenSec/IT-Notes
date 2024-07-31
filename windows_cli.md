@@ -15,6 +15,7 @@
 - [Scan All Protected System Files](##scan-all-protected-system-files)
 
 # Network
+- [netsh](##netsh)
 - [ping](##ping)
 - [tracert](##tracert)
 - [pathping](##pathping)
@@ -83,6 +84,10 @@
 `sfc`
 
 # Network
+
+## netsh
+netsh wlan show profile -> netsh wlan show profile name='' key=clear
+show wifi networks stored in cache on computer, then show passwords in clear text, have to use in escalation
 
 ## ping
 
