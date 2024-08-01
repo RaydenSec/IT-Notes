@@ -22,6 +22,7 @@
 - [netstat](##netstat)
 - [nslookup](##nslookup)
 - [net](##net)
+- [Release+Renew DHCP address](##release+renew-dhcp-address)
 - [explorer.exe](##explorer.exe)
 - [shutdown](##shutdown)
 - [Unix Parallels](##unix-parallels)
@@ -109,6 +110,13 @@ Tags:
 - Multiple IP addresses -> because multiple DNS servers for redundancy
 
 ## net
+
+## Release+Renew DHCP address
+
+`ipconfig /release`
+- Releases assigned IP address back to DHCP pool
+`ipconfig /renew`
+- After releasing IP, renew a new IP from local DHCP Server (useful when moving to different areas in enterprise network, or when switching subnets
 
 ## explorer.exe
 `explorer.exe [path]` 
