@@ -23,6 +23,7 @@
 - [nslookup](##nslookup)
 - [net](##net)
 - [Release+Renew DHCP address](##release+renew-dhcp-address)
+- [Local Arp Table](##local-arp-table)
 - [explorer.exe](##explorer.exe)
 - [shutdown](##shutdown)
 - [Unix Parallels](##unix-parallels)
@@ -112,11 +113,14 @@ Tags:
 ## net
 
 ## Release+Renew DHCP address
-
 `ipconfig /release` -> `ipconfig /renew`
 - Releases assigned IP address back to DHCP pool
 - After releasing IP, renew a new IP from local DHCP Server (useful when moving to different areas in enterprise network, or when switching subnets
 - Also good if having DHCP IP Address issues
+
+## Local Arp Table
+`arp -a`
+- Check local ARP table on computer to see all MAC addresses device knows on network
 
 ## explorer.exe
 `explorer.exe [path]` 
