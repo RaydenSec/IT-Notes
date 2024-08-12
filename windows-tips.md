@@ -15,6 +15,9 @@
 - [Windows Directory](##windows-directory)
 - [Windows Folder](##windows-folder)
 
+# Misc Stuff
+- [Bookmark Chrome Tabs](##bookmark-chrome-tabs)
+
 # Mac 
 - [MacOs File Types](##macos-file-types)
 - [MacOs Equivalent stuff](##macos-equivalent_stuff)
@@ -77,6 +80,12 @@ Program != Application (Python vs MS Word)
 Windows OS folder located in `Drive Letter/Windows`
 All the core things that Windows need to run is stored in `System32`, so if deleted, you're dead 
 - can repair it with `sfc`
+
+# Misc Stuff
+
+## Bookmark Chrome Tabs
+`Ctrl/Cmd + Shift + D`
+- Bookmark all tabs in chrome (good for saving sessions for backups)
 
 # Mac
 
