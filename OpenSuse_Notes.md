@@ -1,6 +1,7 @@
 Knowledge Base for OpenSuse Tumbleweed Rolling Update Distribution
 
 Update OpenSuse Tumbleweed
+`sudo zypper refresh`
 `sudo zypper update`
 
 Change Screensize in VirtualBox
